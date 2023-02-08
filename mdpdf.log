@@ -1,0 +1,163 @@
+    INFO: 2023-02-03 18:06:08,279:               log.py:   20: Logging to D:\Projects\frontend\slides\mdpdf.log
+   DEBUG: 2023-02-03 18:06:08,280:               cli.py:  103: out/common_grace.md
+    INFO: 2023-02-03 18:06:08,280:         converter.py:   14: out/common_grace.md
+   DEBUG: 2023-02-03 18:06:08,286:      pdf_renderer.py:  470: printSegment: 0. 前导
+   DEBUG: 2023-02-03 18:06:08,291:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,292:      pdf_renderer.py:  470: printSegment: 普遍恩典和特殊恩典是改革宗神学的其中一门重点
+   DEBUG: 2023-02-03 18:06:08,302:      pdf_renderer.py:  470: printSegment: 1. 定义
+   DEBUG: 2023-02-03 18:06:08,302:      pdf_renderer.py:  470: printSegment: 什么是恩典？
+   DEBUG: 2023-02-03 18:06:08,316:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,316:      pdf_renderer.py:  470: printSegment: “恩典”的这个词来自于希腊语charis，意思是“支持、祝福或仁慈”
+   DEBUG: 2023-02-03 18:06:08,327:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,327:      pdf_renderer.py:  470: printSegment: 在圣经的语境里，恩典是上帝按着祂主权里对我们的赐福而不是按我们的罪来诅咒我们,是他对不配的人的仁慈和恩惠。
+   DEBUG: 2023-02-03 18:06:08,327:      pdf_renderer.py:  470: printSegment: 什么是普遍恩典？
+   DEBUG: 2023-02-03 18:06:08,328:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,328:      pdf_renderer.py:  470: printSegment: 普遍恩典是指上帝对所有人的恩典，包括非信徒和真信徒。
+   DEBUG: 2023-02-03 18:06:08,328:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,328:      pdf_renderer.py:  470: printSegment: 诗145：9 - 耶和华善待万民，他的慈悲覆庇他一切所造的。
+   DEBUG: 2023-02-03 18:06:08,338:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,338:      pdf_renderer.py:  470: printSegment: 太5：45 - 祂叫日头照好人，也照歹人；降雨给义人，也给不义的人。
+   DEBUG: 2023-02-03 18:06:08,350:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,350:      pdf_renderer.py:  470: printSegment: 普遍恩典的源头是上帝，并且透过圣灵的工作施予人。
+   DEBUG: 2023-02-03 18:06:08,350:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,351:      pdf_renderer.py:  470: printSegment: 普遍恩典完全不能使人得救，也不能对人的救赎产生任何的作用。
+   DEBUG: 2023-02-03 18:06:08,351:      pdf_renderer.py:  470: printSegment: 2. 普遍恩典的形式
+   DEBUG: 2023-02-03 18:06:08,351:      pdf_renderer.py:  470: printSegment: 在被造界中的事工
+   DEBUG: 2023-02-03 18:06:08,351:      pdf_renderer.py:  470: printSegment: 1. 物质上的赐福⸺自然的生命与健康；食物，居所和衣物；为人类的生活提供所有的必需品。
+   DEBUG: 2023-02-03 18:06:08,360:      pdf_renderer.py:  470: printSegment: 2. 道德上的赐福⸺人的良心：对上帝、真理以及正确和错误的道德判断。
+   DEBUG: 2023-02-03 18:06:08,360:      pdf_renderer.py:  470: printSegment: 3. 社会性的赐福⸺对文明的渴求诸如法律、秩序、教育、正直、康健、福利以及公共利益。
+   DEBUG: 2023-02-03 18:06:08,360:      pdf_renderer.py:  470: printSegment: 4. 抑制性的赐福⸺藉着对良心、同胞、审判等的惧怕来抑制个人和社会性的犯罪；延缓对人类的公义审判和处决。
+   DEBUG: 2023-02-03 18:06:08,360:      pdf_renderer.py:  470: printSegment: 透过神的话语的工作
+   DEBUG: 2023-02-03 18:06:08,362:      pdf_renderer.py:  470: printSegment: 宣讲上帝律法的祝福。
+   DEBUG: 2023-02-03 18:06:08,362:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,362:      pdf_renderer.py:  470: printSegment: b 宣讲上帝福音的祝福（上帝的外在呼召）。
+   DEBUG: 2023-02-03 18:06:08,362:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2023-02-03 18:06:08,362:      pdf_renderer.py:  470: printSegment: 「坐」在宝座上代表执行审判、管理、权柄
+   DEBUG: 2023-02-03 18:06:08,362:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,363:      pdf_renderer.py:  470: printSegment: 马太福音19:28
+   DEBUG: 2023-02-03 18:06:08,363:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,363:      pdf_renderer.py:  470: printSegment: 耶稣说：“我实在告诉你们：你们这跟从我的人，到复兴的时候，人子坐在他荣耀的宝座上，你们也要坐在十二个宝座上，审判以色列十二个支派。
+   DEBUG: 2023-02-03 18:06:08,363:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,363:      pdf_renderer.py:  470: printSegment: 基督教要义：所谓
+   DEBUG: 2023-02-03 18:06:08,364:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2023-02-03 18:06:08,364:      pdf_renderer.py:  470: printSegment: 坐
+   DEBUG: 2023-02-03 18:06:08,364:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2023-02-03 18:06:08,364:      pdf_renderer.py:  470: printSegment: ，无非是指他主持天上的裁判而已。
+   DEBUG: 2023-02-03 18:06:08,364:      pdf_renderer.py:  470: printSegment: “右手边的”含义-文化和传统
+   DEBUG: 2023-02-03 18:06:08,364:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: “右”边在许多文化和传统上代表了
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: 强壮
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: (strength)或是正面的意思。
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: 例子：
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: right hand man
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,365:      pdf_renderer.py:  470: printSegment: that
+   DEBUG: 2023-02-03 18:06:08,366:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2023-02-03 18:06:08,366:      pdf_renderer.py:  470: printSegment: s right
+   DEBUG: 2023-02-03 18:06:08,366:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,366:      pdf_renderer.py:  470: printSegment: right or wrong
+   DEBUG: 2023-02-03 18:06:08,366:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,366:      pdf_renderer.py:  470: printSegment: menteri kanan
+   DEBUG: 2023-02-03 18:06:08,367:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,367:      pdf_renderer.py:  470: printSegment: 无出其右
+   DEBUG: 2023-02-03 18:06:08,367:      pdf_renderer.py:  470: printSegment: 圣经里提到的“右边”
+   DEBUG: 2023-02-03 18:06:08,367:      pdf_renderer.py:  470: printSegment: 在圣经中，右手或是右手边，有以下的象征
+   DEBUG: 2023-02-03 18:06:08,369:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2023-02-03 18:06:08,369:      pdf_renderer.py:  470: printSegment: 力量之手（例如出埃及记 15:6）
+   DEBUG: 2023-02-03 18:06:08,369:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,369:      pdf_renderer.py:  470: printSegment: 耶 和 华 阿 ， 你 的 右 手 施 展 能 力 ， 显 出 荣 耀 ； 耶 和 华 阿 ， 你 的 右 手 摔 碎 仇 敌 。
+   DEBUG: 2023-02-03 18:06:08,369:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2023-02-03 18:06:08,370:      pdf_renderer.py:  470: printSegment: 权柄（例如启示录 5:1）
+   DEBUG: 2023-02-03 18:06:08,370:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2023-02-03 18:06:08,370:      pdf_renderer.py:  470: printSegment: 祝福（创世记 48:14）。
+   DEBUG: 2023-02-03 18:06:08,370:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2023-02-03 18:06:08,370:      pdf_renderer.py:  470: printSegment: 保护者
+   DEBUG: 2023-02-03 18:06:08,370:      pdf_renderer.py:  470: printSegment: 詩篇16:8
+   DEBUG: 2023-02-03 18:06:08,371:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,371:      pdf_renderer.py:  470: printSegment: 我将耶和华常摆在我面前， 因他在我右边， 我便不致摇动。
+   DEBUG: 2023-02-03 18:06:08,371:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2023-02-03 18:06:08,371:      pdf_renderer.py:  470: printSegment: 至高的地位
+   DEBUG: 2023-02-03 18:06:08,371:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: 列王纪上2：19
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: 于是，拔示巴去见所罗门王，要为亚多尼雅提说；王起来迎接，向她下拜，就坐在位上，吩咐人为王母设一座位，她便坐在王的右边。
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: 诗篇110：1
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: （大卫的诗。）耶和华对我主说：祢坐在我的右边，等我使祢仇敌作祢的脚凳。
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment:  6 
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: 智慧/道德
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: 传道书10:2
+   DEBUG: 2023-02-03 18:06:08,372:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,374:      pdf_renderer.py:  470: printSegment: 智慧人的心居右；愚昧人的心居左。
+   DEBUG: 2023-02-03 18:06:08,374:      pdf_renderer.py:  470: printSegment: 2. 耶稣坐在天父右手边的意义
+   DEBUG: 2023-02-03 18:06:08,374:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2023-02-03 18:06:08,374:      pdf_renderer.py:  470: printSegment: 耶稣战胜了死亡
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment: 耶稣坐在天父右手边，证明他已经复活，并且战胜了死亡。
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment: 希伯来书 1:3
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment: 他是神荣耀所发的光辉，是神本体的真像，常用他权能的命令托住万有。他洗净了人的罪，就坐在高天至大者的右边。
+   DEBUG: 2023-02-03 18:06:08,375:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2023-02-03 18:06:08,376:      pdf_renderer.py:  470: printSegment: 至高的地位
+   DEBUG: 2023-02-03 18:06:08,376:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,376:      pdf_renderer.py:  470: printSegment: 耶稣坐在神的右边，意思是祂有至高的地位。
+   DEBUG: 2023-02-03 18:06:08,376:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,376:      pdf_renderer.py:  470: printSegment: 所以坐在神的右边意味着他也拥有属于神的力量和权柄。
+   DEBUG: 2023-02-03 18:06:08,377:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,377:      pdf_renderer.py:  470: printSegment: 彼得前书3：22
+   DEBUG: 2023-02-03 18:06:08,377:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,377:      pdf_renderer.py:  470: printSegment: 耶稣已经进入天堂，在神的右边，众天使和有权柄的并有能力的，都服从了他。
+   DEBUG: 2023-02-03 18:06:08,377:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2023-02-03 18:06:08,377:      pdf_renderer.py:  470: printSegment: 耶稣是那完全赎罪的祭司
+   DEBUG: 2023-02-03 18:06:08,378:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,378:      pdf_renderer.py:  470: printSegment: 和旧约的祭司不同，耶稣基督的献祭是一次性并且是完全作成赎罪的工作了，所有相信他的人的罪必得赦免。
+   DEBUG: 2023-02-03 18:06:08,378:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,378:      pdf_renderer.py:  470: printSegment: 希伯来书10：12
+   DEBUG: 2023-02-03 18:06:08,378:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,378:      pdf_renderer.py:  470: printSegment: 但基督献了一次永远的赎罪祭，就在神的右边坐下了，
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment: 耶稣为我们代祷
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment: 耶稣并没有停止祂的祭司职分，而是继续不断为祂的子民代求。
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment: 罗马书8:34
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,379:      pdf_renderer.py:  470: printSegment: 谁能定他们的罪呢？有基督耶稣已经死了，而且从死里复活，现今在神的右边，也替我们祈求。
+   DEBUG: 2023-02-03 18:06:08,389:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2023-02-03 18:06:08,389:      pdf_renderer.py:  470: printSegment: 统治和审判全地
+   DEBUG: 2023-02-03 18:06:08,390:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,390:      pdf_renderer.py:  470: printSegment: 诗篇110
+   DEBUG: 2023-02-03 18:06:08,390:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,390:      pdf_renderer.py:  470: printSegment: 1 耶和华对我主说：“你坐在我的右边，等我使你仇敌做你的脚凳。”
+   DEBUG: 2023-02-03 18:06:08,390:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,390:      pdf_renderer.py:  470: printSegment: 2 耶和华必使你从锡安伸出能力的杖来，你要在你仇敌中掌权。
+   DEBUG: 2023-02-03 18:06:08,391:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2023-02-03 18:06:08,391:      pdf_renderer.py:  470: printSegment: 耶稣就是那万王之王，是启示录里那用铁杖管辖万国的君主。
+   DEBUG: 2023-02-03 18:06:08,391:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,391:      pdf_renderer.py:  470: printSegment: 基督教要义：
+   DEBUG: 2023-02-03 18:06:08,391:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,391:      pdf_renderer.py:  470: printSegment: 父定意在基督的身上得荣耀，又藉他执行统治，所以说基督坐在父的右边；
+   DEBUG: 2023-02-03 18:06:08,392:      pdf_renderer.py:  470: printSegment: 西敏寺大要理问答
+   DEBUG: 2023-02-03 18:06:08,392:      pdf_renderer.py:  470: printSegment: 问54：基督是如何在「坐在父的右边」一事上升高的？
+   DEBUG: 2023-02-03 18:06:08,392:      pdf_renderer.py:  470: printSegment: 答：
+   DEBUG: 2023-02-03 18:06:08,392:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,392:      pdf_renderer.py:  470: printSegment: （一）祂既是神，又是人，被父神升为至高1，满有喜乐2、荣耀3，并得着胜过天上地下一切的权柄4；
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:  470: printSegment: （二）祂招聚、护卫祂的教会，制伏他们的仇敌；又用各样恩赐和恩典5，装备祂的仆人和子民，并为他们代求6。
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 0, [1, '0. 前导', 1, 68.0]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 1, [1, '1. 定义', 1, 130.4]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 2, [2, '什么是恩典？', 1, 168.4]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 3, [2, '什么是普遍恩典？', 1, 238.00000000000003]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 4, [1, '2. 普遍恩典的形式', 1, 320.0]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 5, [2, '在被造界中的事工', 1, 358.0]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 6, [2, '透过神的话语的工作', 1, 451.6]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 7, [2, '“右手边的”含义-文化和传统', 1, 563.2]
+   DEBUG: 2023-02-03 18:06:08,393:      pdf_renderer.py:   53: 8, [2, '圣经里提到的“右边”', 1, 704.8]
+   DEBUG: 2023-02-03 18:06:08,394:      pdf_renderer.py:   53: 9, [1, '2. 耶稣坐在天父右手边的意义', 2, 345.2]
+   DEBUG: 2023-02-03 18:06:08,394:      pdf_renderer.py:   53: 10, [2, '西敏寺大要理问答', 2, 647.1999999999999]
