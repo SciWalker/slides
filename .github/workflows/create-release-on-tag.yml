@@ -1,20 +1,10 @@
-name: Create Release on Tag
-
 on:
   push:
     tags:
       - '*'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Build code
-        run: ./build.sh # or any command to build your code
   release:
-    needs: build # depend on the build job
     runs-on: ubuntu-latest
     env:
       TAG_NAME: ${{ github.ref }} # get the tag name from the context
@@ -30,13 +20,3 @@ jobs:
           release_name: $env:RELEASE_NAME # use the release name as an input
           draft: false # make the release not a draft
           prerelease: false # make the release not a prerelease
-      - name: Upload Release Asset
-        id: upload-release-asset # give an id to this step
-        uses: actions/upload-release-asset@v1 # use the upload-release-asset action
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # provide the GitHub token as an environment variable
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # use the upload URL from the previous step
-          asset_path: ./build/my-app.zip # specify the path of your artifact
-          asset_name: my-app.zip # specify the name of your artifact
-          asset_content_type: application/zip # specify the content type of your artifact
