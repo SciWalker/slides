@@ -21,14 +21,14 @@ This will create a new branch named release/1.0.0 and switch to it. You can make
 
 Use the git flow release finish command to merge the release branch to master and develop, and tag the release with its name. For example:
 
-git flow release finish 1.0.0
+git flow release finish 1.0.0 -m "commit message"
 
 This will merge release/1.0.0 to both master and develop, delete the release branch, and create a tag named 1.0.0.
 
 Push the master, develop, and tag to the remote repository. For example:
 
-git push origin master
+git push origin main
 git push origin develop
-git push origin 1.0.0
+git push origin 1.0.x
 
 Now you have successfully merged your feature branch to release-1.0 and then to master using the Gitflow Workflow.
