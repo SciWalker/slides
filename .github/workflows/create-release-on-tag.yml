@@ -10,13 +10,24 @@ jobs:
       TAG_NAME: ${{ github.ref }} # get the tag name from the context
       RELEASE_NAME: Release ${{ github.ref }} # create a release name from the tag name
     steps:
+      - name: Get tag name
+        id: get_tag_name # give an id to this step
+        run: echo "::set-output name=tag_name::${GITHUB_REF/refs\/tags\//}" # use a shell command to strip the prefix and set the output
+        # or
+        # run: echo "::set-output name=tag_name::$(echo $GITHUB_REF | cut -d / -f 3)" # use another shell command with cut
+        # or
+        # uses: actions/github-script@v4 # use a JavaScript action
+        # with:
+        #   script: |
+        #     const tagName = context.ref.replace('refs/tags/', ''); // use a JavaScript expression to strip the prefix
+        #     core.setOutput('tag_name', tagName); // set the output
       - name: Create Release
         id: create_release # give an id to this step
         uses: actions/create-release@v1 # use the create-release action
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # provide the GitHub token as an environment variable
         with:
-          tag_name: $env:TAG_NAME # use the tag name as an input
-          release_name: $env:RELEASE_NAME # use the release name as an input
+          tag_name: ${{ steps.get_tag_name.outputs.tag_name }} # use the output from the previous step as the tag name input
+          release_name: Release ${{ steps.get_tag_name.outputs.tag_name }} # use the output from the previous step as the release name input
           draft: false # make the release not a draft
           prerelease: false # make the release not a prerelease
