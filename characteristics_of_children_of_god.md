@@ -2,35 +2,50 @@
 
 ## 主要经文
 
-#### 
+#### 1）喜爱神的话，喜爱遵行祂的话语。
+- 彼前二2-3： 就要爱慕那纯净的灵奶，像才生的婴孩爱慕奶一样，叫你们因此渐长，以致得救。你们若尝过主恩的滋味，就必如此。
+- 神的话能不断地更新心意，便使我们的灵命不断的成长。
 
-1) we will obey his word - seek and thirst for his word - just like a child wants to know his father more -
-#### 喜爱神的话，喜爱遵行祂的话语。
-【彼前二2】「就要爱慕那纯净的灵奶，像才生的婴孩爱慕奶一样，叫你们因此渐长，以致得救。」
-【彼前二3】「你们若尝过主恩的滋味，就必如此。」
-第3节可译为「因为你们已经体验过主是美善的」（新译本，英文ESV译本），引自诗三十四8。「美善 chrestos」原文与「基督 Christos」谐音，是双关语。信徒在重生时「已经体验过主是美善的」，所以自然会渴慕多吃「灵奶」；而一个对「灵奶」提不起兴趣的人，里面的生命是可疑的。因此，一个对神的话语没有胃口的人，必须重新回到福音的起点，真正品尝主恩的滋味，确定自己「蒙了重生，不是由于能坏的种子，乃是由于不能坏的种子，是借着神活泼常存的道」（一23）。
-2) humble and submit everything to to God, depend on God through prayer - just like a son will talk to a father - will seek for father's assistance - matthew 7:11
+#### 2) 以儿女的心谦卑顺服,透过祷告向神祈求 
+- 腓立比书4:6 应当一无挂虑，只要凡事藉着祷告、祈求，和感谢，将你们所要的告诉　神。
+- 要以祷告的精神从事日常一切活动，与神保持亲密相交
+  
+#### 3) 靠主喜乐
+- 帖前五16-18：要常常喜乐，不住地祷告，凡事谢恩；因为这是神在基督耶稣里向你们所定的旨意。
+- 常常喜乐是神向每个信徒所定的旨意
+- 在一切事情上向神感恩
+- 是信徒在「在基督耶稣里」（18节）可以活出来的正常生活。
 
-3) 靠主喜乐
-【帖前五16】「要常常喜乐，」
+#### 4） 爱神
+- 约十四21：有了我的命令又遵守的，这人就是爱我的；爱我的必蒙我父爱他，我也要爱他，并且要向他显现。
+- 被耶稣称为最大的诫命："以色列啊，你要听！耶和华我们神是独一的主。你要尽心、尽性、尽力爱耶和华你的神"(申命记6:4-5)
+- 通过灵性的训练、祷告并对神的认识加增，对神的爱才会成长并成熟来荣耀神。
+#### 5）盼望
+- 彼前一3-4：愿颂赞归与我们主耶稣基督的父神！祂曾照自己的大怜悯，借着耶稣基督从死里复活，重生了我们，叫我们有活泼的盼望，可以得着不能朽坏、不能玷污、不能衰残、为你们存留在天上的基业。」
+- 基业指的就是救恩、永生并神的国。
+- 焦点放在将要来的、永恒的荣耀上，就是当我们看到耶稣的时候。
 
-【帖前五17】「不住地祷告，」
+#### 6) 爱人如己
+- 约翰福音 13:34-35 我赐给你们一条新命令，乃是叫你们彼此相爱；我怎样爱你们，你们也要怎样相爱。 你们若有彼此相爱的心，众人因此就认出你们是我的门徒了。
+- 爱人如己->以耶稣的爱来彼此相爱
+- 彼此相爱是基督徒的特征
 
-【帖前五18】「凡事谢恩；因为这是神在基督耶稣里向你们所定的旨意。」
+#### 7) 被神所管教，追求圣洁 
+- 来十二8-9： 管教原是众子所共受的。你们若不受管教，就是私子，不是儿子了。再者，我们曾有生身的父管教我们，我们尚且敬重他，何况万灵的父，我们岂不更当顺服祂得生吗？
+- 信徒成圣的地位，是在基督里白白得着的；但要活出神生命里的「圣洁」，并接受父神管教。
 
-4) love our brother and sister - we are family in Christ - christ love church, so are we - love our enemies - just like Christ
-约翰福音 13:34-35 CUNPSS-神
-我赐给你们一条新命令，乃是叫你们彼此相爱；我怎样爱你们，你们也要怎样相爱。 你们若有彼此相爱的心，众人因此就认出你们是我的门徒了。
 
-5) even though he/she might fall into grave sin - yet he/she will not forever stay there - hebrew 12:6 god will discipline the one He love - God will remember his children - with his power, he will made everything for the benefit of his children - romans 8:28
+#### 结论
+- 我们要学像耶稣的样式和他的榜样
+- 罗八29：因为祂预先所知道的人，就预先定下效法祂儿子的模样，使祂儿子在许多弟兄中作长子。
+- 信徒在重生时「已经体验过主是美善的」，所以自然会渴慕活得更像耶稣；
+- 要确定自己「蒙了重生，不是由于能坏的种子，乃是由于不能坏的种子，是借着神活泼常存的道」（一23）。
+- 罗八28：我们晓得万事都互相效力，叫爱神的人得益处，就是按祂旨意被召的人。
 
-Conclusion - 
-our example reflects our Father - "like father like son" - not just our external behaviour - even our inner desire also reflect our father
-【罗八28】「我们晓得万事都互相效力，叫爱神的人得益处，就是按祂旨意被召的人。」
 
-神的旨意是借着万有来恢复人，借着恢复人来恢复万有。信徒都是神所拣选的、「按祂旨意被召的」，因此在我们身上发生的任何事情都不是出于「偶然」，「万事」的发生都需要神的安排或允许，为了让我们「得益处」。这益处就是让我们能「效法祂儿子的模样」（29节)、「得荣耀」（30节）
 
-【罗八29】「因为祂预先所知道的人，就预先定下效法祂儿子的模样，使祂儿子在许多弟兄中作长子。」
 
-examining one's self - as the children of God - we should reflect these marks - because these are very important - it concerns our eternal destiny - another hand - we are not perfect - but we strive for perfection - and God will always help us - and finally - it was grace and grace all along.... let's us live our identity as children of God out of gratitude and joy
+
+
+
 
