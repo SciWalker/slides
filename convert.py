@@ -1,7 +1,7 @@
 import markdown2
 
 # HTML section template as before
-section_pic_middle_template = '''
+section_middle_template = '''
 <section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
     <h2>{title}</h2>
     <div class="r-hstack">
@@ -55,7 +55,7 @@ def process_markdown_file(file_path):
                 else:
                     subtitle = parts[1]
                     
-            section_html = section_template.format(title=title, subtitle=subtitle, items=items, image_src=image_src)
+            section_html = section_middle_template.format(title=title, subtitle=subtitle, items=items, image_src=image_src)
             sections_html.append(section_html)
             
     return '\n'.join(sections_html)
@@ -83,8 +83,8 @@ def insert_content_into_template(content, template_path, output_path):
         file.write(final_html)
 
 
-
+md_name="what_is_prayer"
 # Process the markdown file to get the HTML content
-content_html = process_markdown_file('out/what_is_perseverance.md')
+content_html = process_markdown_file(f'out/{md_name}.md')
 # Insert the content into the template and save the output
-insert_content_into_template(content_html, 'out/template.html', 'out/output.html')
+insert_content_into_template(content_html, 'out/template.html', f'out/{md_name}.html')
