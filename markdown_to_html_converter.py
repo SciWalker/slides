@@ -52,12 +52,24 @@ def process_markdown_file(file_path):
         sections = content.split('\n\n')
         
         for section in sections:
+            print(section)
+            print("######")
+            section = section.lstrip('\n')
+            #remove any empty string in the list 
+
+
+            if section=="":
+                continue
             parts = section.split('\n', 1)
-            
+            parts = list(filter(None, parts))
+            print(parts)
             if parts[0][:2]=="# ":
                 parts[0]= parts[0].replace("#","")
                 main_title = parts[0]
-                print(main_title)
+                continue
+            if parts[0]=="" or parts[0]=="\n":
+                list_temp = parts[1:]
+                parts=list_temp
                 continue
             if parts[1][0]=="`":
                 title = parts[0].strip('# ')
@@ -70,6 +82,8 @@ def process_markdown_file(file_path):
                         items = markdown_to_html_list(parts[1])
                     elif parts[1][:2]=="##":
                         subtitle = parts[1]
+                    else:
+                        items = markdown_to_html_list(parts[1])
                         
                 section_html = section_middle_template.format(title=title, subtitle=subtitle, items=items, image_src=image_src)
                 sections_html.append(section_html)
@@ -116,7 +130,7 @@ def insert_title_into_the_html(content_html,main_title):
     with open(f'out/{md_name}.html', 'w', encoding='utf-8') as file:
         file.write(final_html)
 
-md_name="lord's_prayer"
+md_name="earnest_prayer"
 # Process the markdown file to get the HTML content
 content_html,main_title = process_markdown_file(f'out/{md_name}.md')
 # Insert the content into the template and save the output
