@@ -25,7 +25,7 @@ This will create a new branch named release/1.0.0 and switch to it. You can make
 
 Use the git flow release finish command to merge the release branch to master and develop, and tag the release with its name. For example:
 ```
-git flow release finish 1.0.0 -m "commit message"
+git flow release finish 1.0.0
 ```
 This will merge release/1.0.0 to both master and develop, delete the release branch, and create a tag named 1.0.0.
 ## Finalizing a release
