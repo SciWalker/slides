@@ -130,7 +130,7 @@ def insert_title_into_the_html(content_html,main_title):
     with open(f'out/{md_name}.html', 'w', encoding='utf-8') as file:
         file.write(final_html)
 
-md_name="13042025_bodily_resurrection"
+md_name="18052025_intro_greatest_stories"
 # Process the markdown file to get the HTML content
 content_html,main_title = process_markdown_file(f'out/{md_name}.md')
 # Insert the content into the template and save the output
