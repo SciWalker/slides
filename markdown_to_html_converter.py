@@ -167,22 +167,46 @@ def markdown_table_to_html(markdown_text):
     html_parts.append('</table>')
     return '\n'.join(html_parts)
 
-def markdown_to_html_list(markdown_text):
-    html_content = markdown2.markdown(markdown_text)
-    
-    # Check if it's an ordered list
-    is_ordered = '<ol>' in html_content
-    
-    # Remove both ul and ol wrapper tags but keep the list items
-    html_content = html_content.replace('<ul>', '').replace('</ul>', '')
-    html_content = html_content.replace('<ol>', '').replace('</ol>', '')
-    
-    # Add fragment classes to list items for step-by-step reveal
+def convert_bold_markdown(text):
+    """Convert **text** to <strong>text</strong>"""
     import re
-    # Match <li> tags and add fragment class
-    html_content = re.sub(r'<li>', r'<li class="fragment">', html_content)
+    return re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
+
+def markdown_to_html_list(markdown_text):
+    import re
     
-    return html_content.strip(), is_ordered
+    lines = markdown_text.strip().split('\n')
+    html_parts = []
+    has_numbered_items = False
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Check for numbered list items (1. 2. etc.)
+        numbered_match = re.match(r'^(\d+)\.\s+(.+)$', line)
+        # Check for dash list items (- text)
+        dash_match = re.match(r'^-\s+(.+)$', line)
+        
+        if numbered_match:
+            has_numbered_items = True
+            number = numbered_match.group(1)
+            content = convert_bold_markdown(numbered_match.group(2))
+            # Use custom styling to show the number
+            html_parts.append(f'<li class="fragment numbered-item" data-number="{number}">{content}</li>')
+            
+        elif dash_match:
+            content = convert_bold_markdown(dash_match.group(1))
+            html_parts.append(f'<li class="fragment dash-item">{content}</li>')
+        else:
+            # Regular text, treat as list item
+            content = convert_bold_markdown(line)
+            html_parts.append(f'<li class="fragment">{content}</li>')
+    
+    html_content = '\n'.join(html_parts)
+    
+    return html_content.strip(), has_numbered_items
 
 def process_markdown_file(file_path):
     sections_html = []

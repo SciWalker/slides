@@ -45,6 +45,26 @@
     section.top ul{
         font-size: 35px;
     }
+    
+    /* Custom styling for numbered and dash items */
+    li.numbered-item {
+        list-style: none;
+        position: relative;
+    }
+    li.numbered-item::before {
+        content: attr(data-number) ". ";
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    li.dash-item {
+        list-style: none;
+        position: relative;
+        margin-left: 20px;
+    }
+    li.dash-item::before {
+        content: "- ";
+        margin-right: 5px;
+    }
 .scrollable {
     overflow-y: auto  !important;
     overflow-x: hidden !important;
@@ -73,7 +93,7 @@
 
 
 		<title>
- 以色列人的败坏（士师记）
+ 士师时期
 </title>
     <link rel="stylesheet" href="../node_modules/reveal.js/dist/reveal.css">
     <link rel="stylesheet" href="../node_modules/reveal.js/dist/theme/black.css">
@@ -89,7 +109,7 @@
 			<div class="slides">
 
 <section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
-    <h2>以色列人的败坏（士师记）</h2>
+    <h2>士师时期</h2>
     <div class="r-hstack">
         <div class="r-vstack" style="flex: 1;">
             <img width="400" height="500" src="assets/12_Tribes_of_Israel_Map.svg.png" >
@@ -106,75 +126,42 @@
 </section>
 
 
-<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
-    <h2>士师记的背景1-社会</h2>
-    <div class="r-hstack">
-        <div class="r-vstack" style="flex: 1;">
-            <img width="400" height="500" src="assets/12_Tribes_of_Israel_Map.svg.png" >
-        </div>
-        <div class="r-vstack" style="flex: 1;">
-            <h3></h3>
-            <div class="eli-column">
-                <ul>
-                    <li class="fragment">半游牧民族</li>
-<li class="fragment">科技与军事远不及四周的民族（撒母耳记上 13:19-23）</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
-    <h2>士师记的背景2-信仰</h2>
-    <div class="eli-column">
-        <ol>
-            <li class="fragment">被迦南人的宗教影响(syncretism)和腐败</li>
-<li class="fragment">普遍上对耶和华的陌生和他的律法的遵行不彻底</li>
-        </ol>
-    </div>
-</section>
-
-
-<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
-    <h2>士师记的背景3-治理</h2>
+    <h2>温习 - 约书亚的征服</h2>
     <div class="eli-column">
         <ul>
-            <li class="fragment">松散的邦联（loose confederation），由士师（类似酋长的角色）带领</li>
+            <li class="fragment dash-item"><strong>三大战役</strong>：中央（耶利哥、艾城）→南方（五王联盟）→北方（夏琐联盟）</li>
+<li class="fragment dash-item"><strong>土地分配</strong>：十二支派分配产业</li>
+<li class="fragment dash-item"><strong>未完全得胜</strong>：仍有剩余的迦南人</li>
         </ul>
     </div>
 </section>
 
 
 <section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
-    <h2>士师记的故事总纲</h2>
+    <h2>士师时期的外邦民族分类</h2>
     <div class="eli-column">
         <table class="reveal-table">
 <thead><tr>
-<th>Item</th>
-<th>In Stock</th>
-<th>Price</th>
+<th>类别</th>
+<th>民族</th>
+<th>特征</th>
 </tr></thead>
 <tbody>
 <tr>
-<td>Python Hat</td>
-<td>True</td>
-<td>23.99</td>
+<td>沿海民族</td>
+<td>非利士人 (士3:31, 10:7)</td>
+<td>先进武器技术，沿海城邦</td>
 </tr>
 <tr>
-<td>SQL Hat</td>
-<td>True</td>
-<td>23.99</td>
+<td>迦南原住民</td>
+<td>摩押人、西顿人、亚扪人(士1:10, 3:5)</td>
+<td>剩余的迦南民族，崇拜巴力等神</td>
 </tr>
 <tr>
-<td>Codecademy Tee</td>
-<td>False</td>
-<td>19.99</td>
-</tr>
-<tr>
-<td>Codecademy Hoodie</td>
-<td>False</td>
-<td>42.99</td>
+<td>北方民族</td>
+<td>亚兰人 (士3:3)</td>
+<td>商贸发达</td>
 </tr>
 </tbody>
 </table>
@@ -183,10 +170,331 @@
 
 
 <section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
-    <h2>路得记和</h2>
+    <h2>关于士师时期的圣经书本</h2>
+    <div class="eli-column">
+        <ol>
+            <li class="fragment numbered-item" data-number="1">士师记</li>
+<li class="fragment numbered-item" data-number="2">路得记</li>
+<li class="fragment numbered-item" data-number="3">撒母耳记上</li>
+        </ol>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>士师时期的背景-社会</h2>
+    <div class="r-hstack">
+        <div class="r-vstack" style="flex: 1;">
+            <img width="400" height="500" src="assets/12_Tribes_of_Israel_Map.svg.png" >
+        </div>
+        <div class="r-vstack" style="flex: 1;">
+            <h3></h3>
+            <div class="eli-column">
+                <ul>
+                    <li class="fragment dash-item">雅各的游牧家族->埃及奴隶->旷野的吗哪民族->士师时期的半游牧民族</li>
+<li class="fragment dash-item">科技与军事落后（撒母耳记上 13:19-23）。</li>
+<li class="fragment dash-item">松散的邦联（loose confederation），危机时由耶和华兴起的士师带领</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>士师记的大纲</h2>
     <div class="eli-column">
         <ul>
-            
+            <li class="fragment">结构分析</li>
+<li class="fragment dash-item"><strong>引言</strong> (1:1-3:6): 约书亚死后，土地的分配，开始堕落</li>
+<li class="fragment dash-item"><strong>主体</strong> (3:7-16:31): 十二位士师的兴起和事迹</li>
+<li class="fragment dash-item"><strong>附录</strong> (17-21章): 道德和宗教的败坏</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>士师记中以色列人的逐渐败坏</h2>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment dash-item">士师记二9：那世代的人也都歸了自己的列祖。後來有別的世代興起，不知道耶和華，也不知道耶和華為以色列人所行的事。</li>
+<li class="fragment dash-item">【士三4】「留下这几族，为要试验以色列人，知道他们肯听从耶和华借摩西吩咐他们列祖的诫命不肯。」</li>
+<li class="fragment dash-item">离弃神－被交于外邦人的手－悔改－得拯救－离弃神。</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>循环模式 - 七次重复</h2>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment dash-item"><strong>叛离神</strong> → <strong>受管教</strong> → <strong>呼求神</strong> → <strong>蒙拯救</strong> → <strong>叛离神</strong></li>
+<li class="fragment dash-item">每次循环都显示以色列人灵性的下滑趋势</li>
+<li class="fragment dash-item">士师的品格也逐渐败坏（从俄陀聂到参孙）</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>主要士师及其特色</h2>
+    <div class="r-hstack">
+        <div class="r-vstack" style="flex: 1;">
+            <img width="400" height="500" src="assets/Gideon-angel.jpg" >
+        </div>
+        <div class="r-vstack" style="flex: 1;">
+            <h3></h3>
+            <div class="eli-column">
+                <ol>
+                    <li class="fragment numbered-item" data-number="1"><strong>俄陀聂</strong> (3:7-11) - 理想的士师</li>
+<li class="fragment numbered-item" data-number="2"><strong>以笏</strong> (3:12-30) - 用计谋刺杀摩押王伊矶伦</li>
+<li class="fragment numbered-item" data-number="3"><strong>底波拉</strong> (4-5章) - 女士师并先知</li>
+<li class="fragment numbered-item" data-number="4"><strong>基甸</strong> (6-8章) - 从胆怯到得胜，最后却制造以弗得</li>
+<li class="fragment numbered-item" data-number="5"><strong>耶弗他</strong> (10:6-12:7) - 被弃的私生子，献女儿为祭</li>
+<li class="fragment numbered-item" data-number="6"><strong>参孙</strong> (13-16章) - 力大无穷却被情欲辖制</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>得胜的方式</h2>
+    <div class="r-hstack">
+        <img width="600" height="300" src="assets/gideon-war.png" >
+    </div>
+    <h3></h3>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment dash-item"><strong>牛棍</strong> (3:31) - 珊迦击杀六百非利士人</li>
+<li class="fragment dash-item"><strong>橛与锤</strong> (4:21) - 雅亿杀死西西拉</li>
+<li class="fragment dash-item"><strong>空瓶、号角与火把</strong> (7:16) - 基甸三百勇士</li>
+<li class="fragment dash-item"><strong>驴腮骨</strong> (15:15) - 参孙击杀一千非利士人</li>
+<li class="fragment dash-item">显示神使用软弱的器皿彰显自己的大能</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>士师时期的背-信仰的腐败</h2>
+    <div class="r-hstack">
+        <img width="600" height="300" src="assets/timeline_judges.jpg" >
+    </div>
+    <h3></h3>
+    <div class="eli-column">
+        <ol>
+            <li class="fragment numbered-item" data-number="1">士师记21:25 - “那时以色列中没有王，各人任意而行”</li>
+<li class="fragment dash-item">以色列人行自己认为对，但是在神眼中为恶的事</li>
+<li class="fragment dash-item">认为神离弃了他们（士师记6：13）</li>
+<li class="fragment numbered-item" data-number="2">被迦南人的宗教影响(syncretism)和腐败</li>
+<li class="fragment dash-item">例子：耶夫他献女儿为祭（士师记11章第31节）</li>
+<li class="fragment dash-item">拜巴力和亚舍拉</li>
+        </ol>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>对律法的忽视</h2>
+    <div class="eli-column">
+        <table class="reveal-table">
+<thead><tr>
+<th>行为</th>
+<th>经文</th>
+<th>违背的律法</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>米迦私设神像和祭司</td>
+<td>士17:5-6</td>
+<td>十诫第二诫 (出20:4-5)</td>
+</tr>
+<tr>
+<td>利未人纳其他支派的妾</td>
+<td>士19:1-3</td>
+<td>利未人圣洁标准 (利21:7,13-14)</td>
+</tr>
+<tr>
+<td>参孙触摸狮子尸体取蜜</td>
+<td>士14:8-9</td>
+<td>拿细耳人条例，不可近死尸 (民6:6-7)</td>
+</tr>
+<tr>
+<td>耶夫他献女儿为燔祭</td>
+<td>士11:30-31,39</td>
+<td>禁止人祭律法 (利18:21, 申12:31)</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>路得记的曙光</h2>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment">时代背景的反差</li>
+<li class="fragment dash-item">路得记发生在<strong>士师秉政的时候</strong>（得1:1）</li>
+<li class="fragment dash-item">士师记的道德败坏<->路得的忠诚和波阿斯的慷慨</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>路得记的大纲</h2>
+    <div class="r-hstack">
+        <img width="600" height="300" src="assets/Julius_Schnorr_von_Carolsfeld-_Ruth_im_Feld_des_Boaz.jpg" >
+    </div>
+    <h3></h3>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment">结构分析</li>
+<li class="fragment dash-item"><strong>第一章</strong>: 拿俄米的家庭悲剧与路得的忠诚</li>
+<li class="fragment dash-item"><strong>第二章</strong>: 路得拾麦穗遇见波阿斯</li>
+<li class="fragment dash-item"><strong>第三章</strong>: 拿俄米的计划与路得的顺服</li>
+<li class="fragment dash-item"><strong>第四章</strong>: 波阿斯的买赎与大卫的家谱</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>主要经文</h2>
+    <div class="r-hstack">
+        <img width="600" height="300" src="assets/Ruth_s-choice.webp" >
+    </div>
+    <h3></h3>
+    <div class="eli-column">
+        <ol>
+            <li class="fragment numbered-item" data-number="1"><strong>路得的忠诚</strong> - "你往哪里去，我也往那里去"（得1:16）</li>
+<li class="fragment numbered-item" data-number="2"><strong>路得对神的信心</strong> 路得记1:16-你的国就是我的国，你的神就是我的神。</li>
+        </ol>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>神的护理和预备</h2>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment dash-item">神在<strong>看似偶然的事件</strong>中掌权（得2:3 "恰巧"）</li>
+<li class="fragment dash-item">为<strong>弥赛亚的家谱</strong>预备道路（得4:17-22）</li>
+<li class="fragment dash-item">透过一系列看似不起眼的家庭事件彰显他的救赎计划</li>
+        </ul>
+    </div>
+</section>
+
+
+<section data-transition="convex" data-background="assets/scroll.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>波阿斯如何遵守律法的原则</h2>
+    <div class="r-hstack">
+        <img width="600" height="300" src="assets/Julius_Schnorr_von_Carolsfeld-_Ruth_im_Feld_des_Boaz.jpg" >
+    </div>
+    <h3></h3>
+    <div class="eli-column">
+        <ol>
+            <li class="fragment numbered-item" data-number="1">拾麦穗的律法（利19:9-10）</li>
+<li class="fragment dash-item"><strong>律法要求</strong>：收割时要在田角留麦穗给穷人和寄居者</li>
+<li class="fragment dash-item"><strong>波阿斯的实践</strong>：不仅允许路得拾麦穗，还特意吩咐工人多留一些（得2:15-16）</li>
+<li class="fragment dash-item"><strong>超越律法</strong>：主动提供食物和水（得2:14）</li>
+<li class="fragment numbered-item" data-number="2">至亲救赎者条例（利25:25）</li>
+<li class="fragment dash-item"><strong>律法要求</strong>：至亲有责任赎回亲族的产业</li>
+<li class="fragment dash-item"><strong>波阿斯的态度</strong>：认真对待这个责任，但先确认更近的亲属（得3:12-13）</li>
+<li class="fragment dash-item"><strong>程序合法</strong>：在城门口召集长老作见证（得4:1-10）</li>
+        </ol>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>路得记和士师记的对照</h2>
+    <div class="eli-column">
+        <table class="reveal-table">
+<thead><tr>
+<th>层面</th>
+<th>士师记</th>
+<th>路得记</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>律法遵守</td>
+<td>各人任意而行，不遵守律法 (士21:25)</td>
+<td>遵守律法爱人的本纲、亲属赎者条例 (得3:12-13)</td>
+</tr>
+<tr>
+<td>道德品格</td>
+<td>道德败坏，充满暴力和不义 (士19-21章)</td>
+<td>忠诚、善良、敬虔的品格 (得1:16-17)</td>
+</tr>
+<tr>
+<td>信仰状态</td>
+<td>背叛耶和华，拜偶像 (士2:11-13)</td>
+<td>对耶和华的坚定信心 (得1:16)</td>
+</tr>
+<tr>
+<td>家庭关系</td>
+<td>宗派间的仇恨 (士19章)</td>
+<td>路得对拿俄米不离不弃 (得1:14-18)</td>
+</tr>
+<tr>
+<td>社会秩序</td>
+<td>混乱无序 (士17:6)</td>
+<td>互相帮助 (得2:4)</td>
+</tr>
+<tr>
+<td>结局</td>
+<td>循环堕落，越来越坏 (士2:19)</td>
+<td>一个家庭的救赎，大卫的先祖 (得4:17)</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>相同之处</h2>
+    <div class="eli-column">
+        <table class="reveal-table">
+<thead><tr>
+<th>层面</th>
+<th>士师记</th>
+<th>路得记</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>神的主权掌管</td>
+<td>神兴起士师拯救以色列人脱离外邦压迫</td>
+<td>神暗中引导和供应</td>
+</tr>
+<tr>
+<td>神的慈爱怜悯</td>
+<td>以色列人悔改呼求->神兴起拯救者</td>
+<td>神透过波阿斯的善行彰显对孤儿寡妇的眷顾</td>
+</tr>
+<tr>
+<td>神的信实守约</td>
+<td>尽管以色列人反复背叛，神仍履行对亚伯拉罕的应许</td>
+<td>神为大卫王室的建立预备道路，成就对大卫的应许</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</section>
+
+
+<section data-background="assets/nov/100114.jpg" data-background-color="lightblue" class="scrollable top">
+    <h2>结论</h2>
+    <div class="eli-column">
+        <ul>
+            <li class="fragment dash-item">即使在士师时期崩坏的时代，上帝仍然实行他的救恩计划。</li>
+<li class="fragment dash-item">士师记的以色列逐渐堕落对比基督徒的成圣过程。</li>
         </ul>
     </div>
 </section>
@@ -196,8 +504,9 @@
     <h2>应用</h2>
     <div class="eli-column">
         <ul>
-            <li class="fragment">士师记的以色列逐渐堕落对比基督徒的成圣过程</li>
-<li class="fragment">圣灵的带领和保守</li>
+            <li class="fragment dash-item">神透过看似平凡的事件在我们的生命中工作。</li>
+<li class="fragment dash-item">要警惕自己，是否随己意行事。</li>
+<li class="fragment dash-item">求圣灵引领</li>
         </ul>
     </div>
 </section>

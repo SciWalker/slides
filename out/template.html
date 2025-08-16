@@ -45,6 +45,26 @@
     section.top ul{
         font-size: 35px;
     }
+    
+    /* Custom styling for numbered and dash items */
+    li.numbered-item {
+        list-style: none;
+        position: relative;
+    }
+    li.numbered-item::before {
+        content: attr(data-number) ". ";
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    li.dash-item {
+        list-style: none;
+        position: relative;
+        margin-left: 20px;
+    }
+    li.dash-item::before {
+        content: "- ";
+        margin-right: 5px;
+    }
 .scrollable {
     overflow-y: auto  !important;
     overflow-x: hidden !important;
