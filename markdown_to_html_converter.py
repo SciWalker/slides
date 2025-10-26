@@ -184,6 +184,12 @@ def markdown_to_html_list(markdown_text):
         if not line:
             continue
             
+        # Check for ### headings
+        if line.startswith('###'):
+            content = line[3:].strip()  # Remove ### and any extra spaces
+            html_parts.append(f'<li class="fragment"><strong>{content}</strong></li>')
+            continue
+            
         # Check for numbered list items (1. 2. etc.)
         numbered_match = re.match(r'^(\d+)\.\s+(.+)$', line)
         # Check for dash list items (- text)
@@ -248,7 +254,6 @@ def process_markdown_file(file_path):
                     elif parts[1][:2]=="##":
                         subtitle = parts[1]
                         items = ''
-                        list_tag = 'ul'
                     else:
                         items, is_ordered = markdown_to_html_list(parts[1])
                         list_tag = 'ol' if is_ordered else 'ul'
@@ -340,6 +345,7 @@ def insert_content_into_template(content, template_path, output_path):
 def insert_title_into_the_html(content_html,main_title):
     with open(f'out/{md_name}.html', 'r', encoding='utf-8') as file:
         template = file.read()
+    print(main_title)
     insertion_point = template.find('		<title>') + len('		<title>')
     if insertion_point > len('<h1 class="title">'):
         part_one = template[:insertion_point]
@@ -351,7 +357,7 @@ def insert_title_into_the_html(content_html,main_title):
     with open(f'out/{md_name}.html', 'w', encoding='utf-8') as file:
         file.write(final_html)
 
-md_name="05102025_west_short_q1_q3"
+md_name="26102025_west_short_q10_q12"
 # Process the markdown file to get the HTML content
 content_html,main_title = process_markdown_file(f'out/{md_name}.md')
 # Insert the content into the template and save the output
