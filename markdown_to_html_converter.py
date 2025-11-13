@@ -1,6 +1,7 @@
 import markdown2
 from PIL import Image
 import os
+from dotenv import load_dotenv
 main_title=""
 # HTML section template as before
 section_middle_template = '''
@@ -174,6 +175,7 @@ def convert_bold_markdown(text):
 
 def markdown_to_html_list(markdown_text):
     import re
+
     
     lines = markdown_text.strip().split('\n')
     html_parts = []
@@ -357,7 +359,31 @@ def insert_title_into_the_html(content_html,main_title):
     with open(f'out/{md_name}.html', 'w', encoding='utf-8') as file:
         file.write(final_html)
 
-md_name="26102025_west_short_q10_q12"
+# Load md_name from environment or .env file
+
+md_name = None
+try:
+    load_dotenv()
+    md_name = os.getenv('MD_NAME')
+except Exception:
+    md_name = os.getenv('MD_NAME')
+
+if not md_name:
+    # fallback: parse a local .env next to this script
+    env_path = os.path.join(os.path.dirname(__file__), '.env')
+    if os.path.exists(env_path):
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#') or '=' not in line:
+                    continue
+                k, v = line.split('=', 1)
+                if k.strip() == 'MD_NAME':
+                    md_name = v.strip().strip('"').strip("'")
+                    break
+
+if not md_name:
+    raise RuntimeError("MD_NAME not found in environment or .env")
 # Process the markdown file to get the HTML content
 content_html,main_title = process_markdown_file(f'out/{md_name}.md')
 # Insert the content into the template and save the output
