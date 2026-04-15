@@ -247,7 +247,7 @@ def process_markdown_file(file_path):
                 
                 # Extract image paths - handle multiple images on the same line
                 image_line = parts[0].replace('`','')
-                image_paths = [path.strip() for path in image_line.split() if path.strip()]
+                image_paths = [path.strip() for path in image_line.split('` `') if path.strip()]
                 
                 if len(parts) > 1:
                     if '\n-' in parts[1]:
